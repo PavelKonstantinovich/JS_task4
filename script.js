@@ -1,9 +1,9 @@
 // Задание №1
 
-function toFormTextElement(Teg, Style, Content) {
-  const newElement = document.createElement(Teg)
-  newElement.style.color = Style
-  newElement.textContent = Content
+function toFormTextElement(teg, style, content) {
+  const newElement = document.createElement(teg)
+  newElement.style.color = style
+  newElement.textContent = content
   return newElement
 }
 console.log(toFormTextElement('p', 'grey', 'lorem38'))
